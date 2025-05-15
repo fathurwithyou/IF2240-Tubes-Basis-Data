@@ -1,0 +1,22 @@
+{
+  "table": "post_tags",
+  "columns": {
+    "post_id": "INT",
+    "ticker": "VARCHAR(100)"
+  },
+  "primary_key": ["post_id", "ticker"],
+  "foreign_keys": [
+    {
+      "column": "post_id",
+      "references": "posts(post_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

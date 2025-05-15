@@ -1,0 +1,22 @@
+{
+  "table": "post_comments",
+  "columns": {
+    "comment_id": "INT",
+    "post_id": "INT"
+  },
+  "primary_key": ["comment_id", "post_id"],
+  "foreign_keys": [
+    {
+      "column": "post_id",
+      "references": "posts(post_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+    {
+      "column": "comment_id",
+      "references": "comments(comment_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

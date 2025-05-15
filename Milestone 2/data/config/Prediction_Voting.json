@@ -1,0 +1,23 @@
+{
+  "table": "prediction_voting",
+  "columns": {
+    "nik": "VARCHAR(100)",
+    "post_id": "INT",
+    "tipe": "ENUM('yes', 'no')"
+  },
+  "primary_key": ["nik", "post_id"],
+  "foreign_keys": [
+    {
+      "column": "nik",
+      "references": "users(nik)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+    {
+      "column": "post_id",
+      "references": "predictions(post_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

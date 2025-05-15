@@ -1,0 +1,25 @@
+{
+  "table": "predictions",
+  "columns": {
+    "post_id": "INT",
+    "ticker": "VARCHAR(100)",
+    "price": "INT",
+    "duration": "INT"
+  },
+  "primary_key": ["ticker", "post_id"],
+  "foreign_keys": [
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+
+    {
+      "column": "post_id",
+      "references": "posts(post_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

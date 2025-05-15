@@ -1,0 +1,17 @@
+{
+  "table": "live_stock_price_change",
+  "columns": {
+    "ticker": "VARCHAR(100)",
+    "price": "DOUBLE",
+    "timestamp": "DATETIME"
+  },
+  "primary_key": ["ticker", "timestamp"],
+  "foreign_keys": [
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

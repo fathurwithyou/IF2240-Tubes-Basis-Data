@@ -1,0 +1,17 @@
+{
+  "table": "transactions",
+  "columns": {
+    "order_id": "INT",
+    "jumlah": "INT",
+    "waktu_eksekusi": "DATETIME"
+  },
+  "primary_key": ["order_id", "waktu_eksekusi"],
+  "foreign_keys": [
+    {
+      "column": "order_id",
+      "references": "orders(order_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

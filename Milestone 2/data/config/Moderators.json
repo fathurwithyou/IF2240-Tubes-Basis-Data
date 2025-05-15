@@ -1,0 +1,9 @@
+{
+  "table": "moderators",
+  "columns": {
+    "username": "VARCHAR(100)",
+    "password": "VARCHAR(100)"
+  },
+  "primary_key": ["username"],
+  "foreign_keys": []
+}

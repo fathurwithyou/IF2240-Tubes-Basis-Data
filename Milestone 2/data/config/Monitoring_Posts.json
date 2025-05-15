@@ -1,0 +1,24 @@
+{
+  "table": "monitoring_posts",
+  "columns": {
+    "post_id": "INT",
+    "username": "VARCHAR(100)",
+    "approval_status": "ENUM('approved', 'rejected')",
+    "timestamp": "DATE"
+  },
+  "primary_key": ["username", "post_id"],
+  "foreign_keys": [
+    {
+      "column": "username",
+      "references": "moderators(username)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+    {
+      "column": "post_id",
+      "references": "posts(post_id)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "table": "portfolios",
+  "columns": {
+    "nik": "VARCHAR(100)",
+    "ticker": "VARCHAR(100)",
+    "jumlah_lembar": "INT",
+    "average_cost": "DOUBLE"
+  },
+  "primary_key": ["nik", "ticker"],
+  "foreign_keys": [
+    {
+      "column": "nik",
+      "references": "orders(nik)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

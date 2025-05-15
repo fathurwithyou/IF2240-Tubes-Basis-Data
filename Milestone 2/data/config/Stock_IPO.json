@@ -1,0 +1,19 @@
+
+{
+"table": "stock_ipo",
+    "columns": {
+        "ticker": "VARCHAR(100)",
+        "harga_penawaran": "INT",
+        "status_ipo": "ENUM('open', 'closed')",
+        "tanggal_ipo": "DATE"
+    },
+    "primary_key": ["ticker"],
+    "foreign_keys": [
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

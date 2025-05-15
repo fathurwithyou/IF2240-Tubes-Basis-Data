@@ -1,0 +1,902 @@
+[
+  {
+    "order_id": 1,
+    "nik": "131-25-6889",
+    "ticker": "PTBA.JK",
+    "tipe_order": "jual",
+    "harga": 9759,
+    "jumlah_lembar": 52446,
+    "status": "executed"
+  },
+  {
+    "order_id": 2,
+    "nik": "387-87-9912",
+    "ticker": "ISAT.JK",
+    "tipe_order": "beli",
+    "harga": 1673,
+    "jumlah_lembar": 57136,
+    "status": "pending"
+  },
+  {
+    "order_id": 3,
+    "nik": "033-74-1801",
+    "ticker": "BRPT.JK",
+    "tipe_order": "jual",
+    "harga": 7474,
+    "jumlah_lembar": 62853,
+    "status": "pending"
+  },
+  {
+    "order_id": 4,
+    "nik": "244-39-1997",
+    "ticker": "PGAS.JK",
+    "tipe_order": "jual",
+    "harga": 2116,
+    "jumlah_lembar": 55695,
+    "status": "pending"
+  },
+  {
+    "order_id": 5,
+    "nik": "716-63-1990",
+    "ticker": "EXCL.JK",
+    "tipe_order": "beli",
+    "harga": 2461,
+    "jumlah_lembar": 39309,
+    "status": "pending"
+  },
+  {
+    "order_id": 6,
+    "nik": "230-14-5737",
+    "ticker": "TLKM.JK",
+    "tipe_order": "beli",
+    "harga": 2850,
+    "jumlah_lembar": 76874,
+    "status": "executed"
+  },
+  {
+    "order_id": 7,
+    "nik": "657-70-8591",
+    "ticker": "TINS.JK",
+    "tipe_order": "beli",
+    "harga": 6861,
+    "jumlah_lembar": 86663,
+    "status": "executed"
+  },
+  {
+    "order_id": 8,
+    "nik": "753-89-8045",
+    "ticker": "PGAS.JK",
+    "tipe_order": "beli",
+    "harga": 4351,
+    "jumlah_lembar": 93682,
+    "status": "partial"
+  },
+  {
+    "order_id": 9,
+    "nik": "880-61-3645",
+    "ticker": "EXCL.JK",
+    "tipe_order": "beli",
+    "harga": 4811,
+    "jumlah_lembar": 27964,
+    "status": "partial"
+  },
+  {
+    "order_id": 10,
+    "nik": "225-35-7141",
+    "ticker": "WIFI.JK",
+    "tipe_order": "jual",
+    "harga": 1006,
+    "jumlah_lembar": 44792,
+    "status": "pending"
+  },
+  {
+    "order_id": 11,
+    "nik": "620-27-5618",
+    "ticker": "JPFA.JK",
+    "tipe_order": "beli",
+    "harga": 1717,
+    "jumlah_lembar": 33360,
+    "status": "partial"
+  },
+  {
+    "order_id": 12,
+    "nik": "047-85-3734",
+    "ticker": "WIFI.JK",
+    "tipe_order": "beli",
+    "harga": 7563,
+    "jumlah_lembar": 43575,
+    "status": "executed"
+  },
+  {
+    "order_id": 13,
+    "nik": "033-74-1801",
+    "ticker": "BOLT.JK",
+    "tipe_order": "beli",
+    "harga": 3712,
+    "jumlah_lembar": 47228,
+    "status": "partial"
+  },
+  {
+    "order_id": 14,
+    "nik": "291-87-9718",
+    "ticker": "BBCA.JK",
+    "tipe_order": "jual",
+    "harga": 9119,
+    "jumlah_lembar": 18959,
+    "status": "partial"
+  },
+  {
+    "order_id": 15,
+    "nik": "340-50-2293",
+    "ticker": "BRPT.JK",
+    "tipe_order": "beli",
+    "harga": 2595,
+    "jumlah_lembar": 56220,
+    "status": "partial"
+  },
+  {
+    "order_id": 16,
+    "nik": "746-44-1791",
+    "ticker": "JPFA.JK",
+    "tipe_order": "beli",
+    "harga": 4166,
+    "jumlah_lembar": 91360,
+    "status": "partial"
+  },
+  {
+    "order_id": 17,
+    "nik": "274-51-1295",
+    "ticker": "BMRI.JK",
+    "tipe_order": "jual",
+    "harga": 1462,
+    "jumlah_lembar": 74347,
+    "status": "partial"
+  },
+  {
+    "order_id": 18,
+    "nik": "027-12-3751",
+    "ticker": "ISAT.JK",
+    "tipe_order": "jual",
+    "harga": 2035,
+    "jumlah_lembar": 61610,
+    "status": "executed"
+  },
+  {
+    "order_id": 19,
+    "nik": "274-51-1295",
+    "ticker": "EXCL.JK",
+    "tipe_order": "jual",
+    "harga": 2070,
+    "jumlah_lembar": 67606,
+    "status": "pending"
+  },
+  {
+    "order_id": 20,
+    "nik": "652-25-4107",
+    "ticker": "BOLT.JK",
+    "tipe_order": "jual",
+    "harga": 9818,
+    "jumlah_lembar": 75136,
+    "status": "executed"
+  },
+  {
+    "order_id": 21,
+    "nik": "657-70-8591",
+    "ticker": "ISAT.JK",
+    "tipe_order": "beli",
+    "harga": 9957,
+    "jumlah_lembar": 70916,
+    "status": "executed"
+  },
+  {
+    "order_id": 22,
+    "nik": "033-74-1801",
+    "ticker": "SMGR.JK",
+    "tipe_order": "beli",
+    "harga": 7565,
+    "jumlah_lembar": 60520,
+    "status": "executed"
+  },
+  {
+    "order_id": 23,
+    "nik": "068-17-4506",
+    "ticker": "BINA.JK",
+    "tipe_order": "beli",
+    "harga": 2587,
+    "jumlah_lembar": 35586,
+    "status": "pending"
+  },
+  {
+    "order_id": 24,
+    "nik": "833-17-8625",
+    "ticker": "BOLT.JK",
+    "tipe_order": "jual",
+    "harga": 5437,
+    "jumlah_lembar": 54225,
+    "status": "executed"
+  },
+  {
+    "order_id": 25,
+    "nik": "230-14-5737",
+    "ticker": "UNVR.JK",
+    "tipe_order": "beli",
+    "harga": 4710,
+    "jumlah_lembar": 42789,
+    "status": "executed"
+  },
+  {
+    "order_id": 26,
+    "nik": "872-21-2853",
+    "ticker": "BMRI.JK",
+    "tipe_order": "beli",
+    "harga": 7463,
+    "jumlah_lembar": 82129,
+    "status": "partial"
+  },
+  {
+    "order_id": 27,
+    "nik": "250-17-9251",
+    "ticker": "FORE.JK",
+    "tipe_order": "jual",
+    "harga": 9944,
+    "jumlah_lembar": 55337,
+    "status": "executed"
+  },
+  {
+    "order_id": 28,
+    "nik": "630-77-8308",
+    "ticker": "PTBA.JK",
+    "tipe_order": "beli",
+    "harga": 7485,
+    "jumlah_lembar": 91289,
+    "status": "executed"
+  },
+  {
+    "order_id": 29,
+    "nik": "620-27-5618",
+    "ticker": "ASII.JK",
+    "tipe_order": "jual",
+    "harga": 6105,
+    "jumlah_lembar": 66418,
+    "status": "partial"
+  },
+  {
+    "order_id": 30,
+    "nik": "230-14-5737",
+    "ticker": "BMRI.JK",
+    "tipe_order": "jual",
+    "harga": 2479,
+    "jumlah_lembar": 42904,
+    "status": "partial"
+  },
+  {
+    "order_id": 31,
+    "nik": "244-39-1997",
+    "ticker": "PGAS.JK",
+    "tipe_order": "jual",
+    "harga": 6137,
+    "jumlah_lembar": 86496,
+    "status": "pending"
+  },
+  {
+    "order_id": 32,
+    "nik": "468-18-7613",
+    "ticker": "ASII.JK",
+    "tipe_order": "beli",
+    "harga": 3033,
+    "jumlah_lembar": 80439,
+    "status": "pending"
+  },
+  {
+    "order_id": 33,
+    "nik": "172-78-9950",
+    "ticker": "BAYU.JK",
+    "tipe_order": "beli",
+    "harga": 1959,
+    "jumlah_lembar": 90106,
+    "status": "partial"
+  },
+  {
+    "order_id": 34,
+    "nik": "630-69-1531",
+    "ticker": "BMRI.JK",
+    "tipe_order": "jual",
+    "harga": 5036,
+    "jumlah_lembar": 91356,
+    "status": "partial"
+  },
+  {
+    "order_id": 35,
+    "nik": "715-31-9369",
+    "ticker": "TINS.JK",
+    "tipe_order": "beli",
+    "harga": 6755,
+    "jumlah_lembar": 14863,
+    "status": "pending"
+  },
+  {
+    "order_id": 36,
+    "nik": "052-38-6294",
+    "ticker": "EXCL.JK",
+    "tipe_order": "jual",
+    "harga": 2287,
+    "jumlah_lembar": 55376,
+    "status": "executed"
+  },
+  {
+    "order_id": 37,
+    "nik": "065-92-7499",
+    "ticker": "DATA.JK",
+    "tipe_order": "beli",
+    "harga": 4720,
+    "jumlah_lembar": 78120,
+    "status": "executed"
+  },
+  {
+    "order_id": 38,
+    "nik": "833-17-8625",
+    "ticker": "BAYU.JK",
+    "tipe_order": "jual",
+    "harga": 4393,
+    "jumlah_lembar": 55214,
+    "status": "partial"
+  },
+  {
+    "order_id": 39,
+    "nik": "766-62-3506",
+    "ticker": "ELIT.JK",
+    "tipe_order": "beli",
+    "harga": 7730,
+    "jumlah_lembar": 92977,
+    "status": "executed"
+  },
+  {
+    "order_id": 40,
+    "nik": "483-04-9199",
+    "ticker": "MDKA.JK",
+    "tipe_order": "beli",
+    "harga": 2638,
+    "jumlah_lembar": 67459,
+    "status": "executed"
+  },
+  {
+    "order_id": 41,
+    "nik": "692-31-6616",
+    "ticker": "ELIT.JK",
+    "tipe_order": "jual",
+    "harga": 6368,
+    "jumlah_lembar": 48810,
+    "status": "executed"
+  },
+  {
+    "order_id": 42,
+    "nik": "797-49-8240",
+    "ticker": "MDKA.JK",
+    "tipe_order": "beli",
+    "harga": 7209,
+    "jumlah_lembar": 63637,
+    "status": "pending"
+  },
+  {
+    "order_id": 43,
+    "nik": "523-96-8500",
+    "ticker": "DATA.JK",
+    "tipe_order": "beli",
+    "harga": 1405,
+    "jumlah_lembar": 77873,
+    "status": "executed"
+  },
+  {
+    "order_id": 44,
+    "nik": "033-74-1801",
+    "ticker": "TINS.JK",
+    "tipe_order": "jual",
+    "harga": 3226,
+    "jumlah_lembar": 39153,
+    "status": "executed"
+  },
+  {
+    "order_id": 45,
+    "nik": "387-87-9912",
+    "ticker": "BBCA.JK",
+    "tipe_order": "jual",
+    "harga": 3931,
+    "jumlah_lembar": 6155,
+    "status": "partial"
+  },
+  {
+    "order_id": 46,
+    "nik": "250-17-9251",
+    "ticker": "FORE.JK",
+    "tipe_order": "jual",
+    "harga": 7144,
+    "jumlah_lembar": 89445,
+    "status": "partial"
+  },
+  {
+    "order_id": 47,
+    "nik": "655-08-1230",
+    "ticker": "VKTR.JK",
+    "tipe_order": "jual",
+    "harga": 8067,
+    "jumlah_lembar": 65209,
+    "status": "partial"
+  },
+  {
+    "order_id": 48,
+    "nik": "172-78-9950",
+    "ticker": "PTBA.JK",
+    "tipe_order": "beli",
+    "harga": 6355,
+    "jumlah_lembar": 57122,
+    "status": "partial"
+  },
+  {
+    "order_id": 49,
+    "nik": "233-47-2940",
+    "ticker": "HMSP.JK",
+    "tipe_order": "beli",
+    "harga": 1235,
+    "jumlah_lembar": 40730,
+    "status": "partial"
+  },
+  {
+    "order_id": 50,
+    "nik": "716-63-1990",
+    "ticker": "VKTR.JK",
+    "tipe_order": "jual",
+    "harga": 6966,
+    "jumlah_lembar": 64230,
+    "status": "partial"
+  },
+  {
+    "order_id": 51,
+    "nik": "715-31-9369",
+    "ticker": "TINS.JK",
+    "tipe_order": "jual",
+    "harga": 9806,
+    "jumlah_lembar": 3826,
+    "status": "executed"
+  },
+  {
+    "order_id": 52,
+    "nik": "274-51-1295",
+    "ticker": "ELIT.JK",
+    "tipe_order": "jual",
+    "harga": 6054,
+    "jumlah_lembar": 41804,
+    "status": "pending"
+  },
+  {
+    "order_id": 53,
+    "nik": "375-97-2364",
+    "ticker": "FORE.JK",
+    "tipe_order": "beli",
+    "harga": 9297,
+    "jumlah_lembar": 79772,
+    "status": "pending"
+  },
+  {
+    "order_id": 54,
+    "nik": "630-69-1531",
+    "ticker": "BRPT.JK",
+    "tipe_order": "jual",
+    "harga": 3143,
+    "jumlah_lembar": 31788,
+    "status": "partial"
+  },
+  {
+    "order_id": 55,
+    "nik": "692-31-6616",
+    "ticker": "MDKA.JK",
+    "tipe_order": "jual",
+    "harga": 7626,
+    "jumlah_lembar": 49973,
+    "status": "pending"
+  },
+  {
+    "order_id": 56,
+    "nik": "568-12-9781",
+    "ticker": "ASII.JK",
+    "tipe_order": "beli",
+    "harga": 7860,
+    "jumlah_lembar": 44107,
+    "status": "executed"
+  },
+  {
+    "order_id": 57,
+    "nik": "655-08-1230",
+    "ticker": "BINA.JK",
+    "tipe_order": "jual",
+    "harga": 1887,
+    "jumlah_lembar": 14209,
+    "status": "partial"
+  },
+  {
+    "order_id": 58,
+    "nik": "523-96-8500",
+    "ticker": "MDKA.JK",
+    "tipe_order": "jual",
+    "harga": 6685,
+    "jumlah_lembar": 30003,
+    "status": "pending"
+  },
+  {
+    "order_id": 59,
+    "nik": "274-51-1295",
+    "ticker": "PTBA.JK",
+    "tipe_order": "beli",
+    "harga": 7971,
+    "jumlah_lembar": 21007,
+    "status": "pending"
+  },
+  {
+    "order_id": 60,
+    "nik": "144-65-4740",
+    "ticker": "PGAS.JK",
+    "tipe_order": "beli",
+    "harga": 3865,
+    "jumlah_lembar": 19944,
+    "status": "partial"
+  },
+  {
+    "order_id": 61,
+    "nik": "655-08-1230",
+    "ticker": "DATA.JK",
+    "tipe_order": "beli",
+    "harga": 8404,
+    "jumlah_lembar": 56123,
+    "status": "partial"
+  },
+  {
+    "order_id": 62,
+    "nik": "047-85-3734",
+    "ticker": "UNVR.JK",
+    "tipe_order": "jual",
+    "harga": 6089,
+    "jumlah_lembar": 52591,
+    "status": "pending"
+  },
+  {
+    "order_id": 63,
+    "nik": "384-56-2386",
+    "ticker": "MDKA.JK",
+    "tipe_order": "jual",
+    "harga": 2103,
+    "jumlah_lembar": 51137,
+    "status": "pending"
+  },
+  {
+    "order_id": 64,
+    "nik": "411-68-1289",
+    "ticker": "PGAS.JK",
+    "tipe_order": "beli",
+    "harga": 2295,
+    "jumlah_lembar": 23184,
+    "status": "partial"
+  },
+  {
+    "order_id": 65,
+    "nik": "027-12-3751",
+    "ticker": "WIFI.JK",
+    "tipe_order": "beli",
+    "harga": 2512,
+    "jumlah_lembar": 48826,
+    "status": "executed"
+  },
+  {
+    "order_id": 66,
+    "nik": "387-87-9912",
+    "ticker": "JPFA.JK",
+    "tipe_order": "jual",
+    "harga": 9739,
+    "jumlah_lembar": 67774,
+    "status": "executed"
+  },
+  {
+    "order_id": 67,
+    "nik": "230-14-5737",
+    "ticker": "PTBA.JK",
+    "tipe_order": "jual",
+    "harga": 1982,
+    "jumlah_lembar": 803,
+    "status": "executed"
+  },
+  {
+    "order_id": 68,
+    "nik": "375-97-2364",
+    "ticker": "GGRM.JK",
+    "tipe_order": "beli",
+    "harga": 2775,
+    "jumlah_lembar": 62205,
+    "status": "executed"
+  },
+  {
+    "order_id": 69,
+    "nik": "068-17-4506",
+    "ticker": "ASII.JK",
+    "tipe_order": "jual",
+    "harga": 8883,
+    "jumlah_lembar": 93188,
+    "status": "partial"
+  },
+  {
+    "order_id": 70,
+    "nik": "753-89-8045",
+    "ticker": "BINA.JK",
+    "tipe_order": "beli",
+    "harga": 4209,
+    "jumlah_lembar": 10373,
+    "status": "pending"
+  },
+  {
+    "order_id": 71,
+    "nik": "250-17-9251",
+    "ticker": "HMSP.JK",
+    "tipe_order": "jual",
+    "harga": 8275,
+    "jumlah_lembar": 1786,
+    "status": "executed"
+  },
+  {
+    "order_id": 72,
+    "nik": "274-51-1295",
+    "ticker": "DATA.JK",
+    "tipe_order": "jual",
+    "harga": 3210,
+    "jumlah_lembar": 94147,
+    "status": "partial"
+  },
+  {
+    "order_id": 73,
+    "nik": "715-31-9369",
+    "ticker": "WIFI.JK",
+    "tipe_order": "jual",
+    "harga": 3688,
+    "jumlah_lembar": 83702,
+    "status": "partial"
+  },
+  {
+    "order_id": 74,
+    "nik": "716-63-1990",
+    "ticker": "MDKA.JK",
+    "tipe_order": "beli",
+    "harga": 3412,
+    "jumlah_lembar": 95742,
+    "status": "pending"
+  },
+  {
+    "order_id": 75,
+    "nik": "880-61-3645",
+    "ticker": "BAYU.JK",
+    "tipe_order": "beli",
+    "harga": 1876,
+    "jumlah_lembar": 26725,
+    "status": "executed"
+  },
+  {
+    "order_id": 76,
+    "nik": "030-64-5326",
+    "ticker": "VKTR.JK",
+    "tipe_order": "jual",
+    "harga": 4748,
+    "jumlah_lembar": 96393,
+    "status": "partial"
+  },
+  {
+    "order_id": 77,
+    "nik": "880-61-3645",
+    "ticker": "BAYU.JK",
+    "tipe_order": "jual",
+    "harga": 4735,
+    "jumlah_lembar": 56372,
+    "status": "partial"
+  },
+  {
+    "order_id": 78,
+    "nik": "052-38-6294",
+    "ticker": "EXCL.JK",
+    "tipe_order": "jual",
+    "harga": 9721,
+    "jumlah_lembar": 6304,
+    "status": "partial"
+  },
+  {
+    "order_id": 79,
+    "nik": "274-51-1295",
+    "ticker": "TLKM.JK",
+    "tipe_order": "jual",
+    "harga": 3765,
+    "jumlah_lembar": 48300,
+    "status": "partial"
+  },
+  {
+    "order_id": 80,
+    "nik": "030-64-5326",
+    "ticker": "BRPT.JK",
+    "tipe_order": "beli",
+    "harga": 6075,
+    "jumlah_lembar": 16767,
+    "status": "pending"
+  },
+  {
+    "order_id": 81,
+    "nik": "753-89-8045",
+    "ticker": "PTBA.JK",
+    "tipe_order": "beli",
+    "harga": 9248,
+    "jumlah_lembar": 42507,
+    "status": "partial"
+  },
+  {
+    "order_id": 82,
+    "nik": "715-31-9369",
+    "ticker": "BAYU.JK",
+    "tipe_order": "jual",
+    "harga": 5396,
+    "jumlah_lembar": 6180,
+    "status": "pending"
+  },
+  {
+    "order_id": 83,
+    "nik": "766-62-3506",
+    "ticker": "EXCL.JK",
+    "tipe_order": "jual",
+    "harga": 5169,
+    "jumlah_lembar": 40043,
+    "status": "executed"
+  },
+  {
+    "order_id": 84,
+    "nik": "630-69-1531",
+    "ticker": "TINS.JK",
+    "tipe_order": "jual",
+    "harga": 5672,
+    "jumlah_lembar": 85487,
+    "status": "partial"
+  },
+  {
+    "order_id": 85,
+    "nik": "384-56-2386",
+    "ticker": "ISAT.JK",
+    "tipe_order": "jual",
+    "harga": 3386,
+    "jumlah_lembar": 25797,
+    "status": "pending"
+  },
+  {
+    "order_id": 86,
+    "nik": "030-64-5326",
+    "ticker": "WIFI.JK",
+    "tipe_order": "beli",
+    "harga": 3292,
+    "jumlah_lembar": 25369,
+    "status": "pending"
+  },
+  {
+    "order_id": 87,
+    "nik": "641-28-4336",
+    "ticker": "HMSP.JK",
+    "tipe_order": "jual",
+    "harga": 5677,
+    "jumlah_lembar": 70421,
+    "status": "executed"
+  },
+  {
+    "order_id": 88,
+    "nik": "172-78-9950",
+    "ticker": "WIFI.JK",
+    "tipe_order": "jual",
+    "harga": 2390,
+    "jumlah_lembar": 59081,
+    "status": "partial"
+  },
+  {
+    "order_id": 89,
+    "nik": "655-15-0410",
+    "ticker": "PGAS.JK",
+    "tipe_order": "jual",
+    "harga": 4379,
+    "jumlah_lembar": 31837,
+    "status": "executed"
+  },
+  {
+    "order_id": 90,
+    "nik": "052-38-6294",
+    "ticker": "ITMG.JK",
+    "tipe_order": "jual",
+    "harga": 3725,
+    "jumlah_lembar": 64132,
+    "status": "pending"
+  },
+  {
+    "order_id": 91,
+    "nik": "715-31-9369",
+    "ticker": "SMGR.JK",
+    "tipe_order": "beli",
+    "harga": 4139,
+    "jumlah_lembar": 72757,
+    "status": "executed"
+  },
+  {
+    "order_id": 92,
+    "nik": "836-09-8728",
+    "ticker": "BINA.JK",
+    "tipe_order": "jual",
+    "harga": 3780,
+    "jumlah_lembar": 9539,
+    "status": "partial"
+  },
+  {
+    "order_id": 93,
+    "nik": "384-56-2386",
+    "ticker": "PGAS.JK",
+    "tipe_order": "jual",
+    "harga": 1206,
+    "jumlah_lembar": 85860,
+    "status": "executed"
+  },
+  {
+    "order_id": 94,
+    "nik": "131-25-6889",
+    "ticker": "BMRI.JK",
+    "tipe_order": "beli",
+    "harga": 2102,
+    "jumlah_lembar": 79527,
+    "status": "partial"
+  },
+  {
+    "order_id": 95,
+    "nik": "523-96-8500",
+    "ticker": "PTBA.JK",
+    "tipe_order": "beli",
+    "harga": 1683,
+    "jumlah_lembar": 33415,
+    "status": "partial"
+  },
+  {
+    "order_id": 96,
+    "nik": "620-27-5618",
+    "ticker": "FORE.JK",
+    "tipe_order": "beli",
+    "harga": 1543,
+    "jumlah_lembar": 50675,
+    "status": "executed"
+  },
+  {
+    "order_id": 97,
+    "nik": "033-74-1801",
+    "ticker": "WIFI.JK",
+    "tipe_order": "beli",
+    "harga": 6324,
+    "jumlah_lembar": 94266,
+    "status": "executed"
+  },
+  {
+    "order_id": 98,
+    "nik": "065-92-7499",
+    "ticker": "PTBA.JK",
+    "tipe_order": "beli",
+    "harga": 5370,
+    "jumlah_lembar": 81806,
+    "status": "pending"
+  },
+  {
+    "order_id": 99,
+    "nik": "797-49-8240",
+    "ticker": "VKTR.JK",
+    "tipe_order": "jual",
+    "harga": 4760,
+    "jumlah_lembar": 40054,
+    "status": "pending"
+  },
+  {
+    "order_id": 100,
+    "nik": "172-78-9950",
+    "ticker": "SMGR.JK",
+    "tipe_order": "beli",
+    "harga": 2701,
+    "jumlah_lembar": 67464,
+    "status": "pending"
+  }
+]

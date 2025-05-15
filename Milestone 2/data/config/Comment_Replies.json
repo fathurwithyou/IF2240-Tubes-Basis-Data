@@ -1,0 +1,26 @@
+{
+  "table": "comment_replies",
+  "columns": {
+    "comment_id_from": "INT",
+    "comment_id_to": "INT",
+    "timestamp": "DATETIME"
+  },
+  "primary key": [
+    "comment_id_from",
+    "comment_id_to"
+  ],
+  "foreign keys": {
+    "comment_id_from": {
+      "column": "comment_id_from",
+      "references": "comments(comment_id)",
+      "on delete": "CASCADE",
+      "on update": "CASCADE"
+    },
+    "comment_id_to": {
+      "column": "comment_id_to",
+      "references": "comments(comment_id)",
+      "on delete": "CASCADE",
+      "on update": "CASCADE"
+    }
+  }
+}

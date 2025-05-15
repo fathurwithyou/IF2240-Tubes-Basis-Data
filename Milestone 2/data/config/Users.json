@@ -1,0 +1,15 @@
+{
+  "table": "users",
+  "columns": {
+    "nik": "VARCHAR(100)",
+    "nama": "VARCHAR(100)",
+    "email": "VARCHAR(100)",
+    "telepon": "VARCHAR(100)",
+    "password": "VARCHAR(100)",
+    "nomor_rekening": "VARCHAR(100)",
+    "kyc_status": "ENUM('verified', 'unverified') NOT NULL",
+    "saldo": "INT"
+  },
+  "primary_key": ["nik"],
+  "foreign_keys": []
+}

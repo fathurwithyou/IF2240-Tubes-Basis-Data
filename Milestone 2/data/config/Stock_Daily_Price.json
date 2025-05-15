@@ -1,0 +1,20 @@
+{
+    "table": "stock_daily_price",
+    "columns": {
+        "ticker": "VARCHAR(100)",
+        "date": "DATE",
+        "open": "DOUBLE",
+        "close": "DOUBLE",
+        "highest": "DOUBLE",
+        "lowest": "DOUBLE"
+    },
+    "primary_key": ["ticker", "date"],
+    "foreign_keys": [
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}

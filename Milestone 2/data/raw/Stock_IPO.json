@@ -1,0 +1,62 @@
+[
+  {
+    "ticker": "ELIT.JK",
+    "harga_penawaran": 3430,
+    "status_ipo": "open",
+    "tanggal_ipo": "2025-02-12"
+  },
+  {
+    "ticker": "BAYU.JK",
+    "harga_penawaran": 5066,
+    "status_ipo": "closed",
+    "tanggal_ipo": "2024-10-12"
+  },
+  {
+    "ticker": "BINA.JK",
+    "harga_penawaran": 9412,
+    "status_ipo": "open",
+    "tanggal_ipo": "2025-01-29"
+  },
+  {
+    "ticker": "BOLT.JK",
+    "harga_penawaran": 5896,
+    "status_ipo": "closed",
+    "tanggal_ipo": "2025-03-26"
+  },
+  {
+    "ticker": "WIFI.JK",
+    "harga_penawaran": 3848,
+    "status_ipo": "open",
+    "tanggal_ipo": "2024-10-16"
+  },
+  {
+    "ticker": "DATA.JK",
+    "harga_penawaran": 8408,
+    "status_ipo": "open",
+    "tanggal_ipo": "2024-06-17"
+  },
+  {
+    "ticker": "VKTR.JK",
+    "harga_penawaran": 8570,
+    "status_ipo": "open",
+    "tanggal_ipo": "2025-03-20"
+  },
+  {
+    "ticker": "FORE.JK",
+    "harga_penawaran": 3290,
+    "status_ipo": "open",
+    "tanggal_ipo": "2024-05-16"
+  },
+  {
+    "ticker": "ISAT.JK",
+    "harga_penawaran": 2010,
+    "status_ipo": "open",
+    "tanggal_ipo": "2024-07-01"
+  },
+  {
+    "ticker": "EXCL.JK",
+    "harga_penawaran": 4246,
+    "status_ipo": "closed",
+    "tanggal_ipo": "2024-10-03"
+  }
+]

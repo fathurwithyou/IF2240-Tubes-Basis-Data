@@ -1,0 +1,502 @@
+[
+  {
+    "nik": "655-15-0410",
+    "nama": "Ika Prasasta, S.H.",
+    "email": "damuwastuti@example.net",
+    "telepon": "0819600133",
+    "password": "2(9AVr!ldD",
+    "nomor_rekening": "CMDL59407816184959",
+    "kyc_status": "verified",
+    "saldo": 1266941
+  },
+  {
+    "nik": "047-85-3734",
+    "nama": "T. Bahuwirya Pradipta, S.IP",
+    "email": "dsetiawan@example.net",
+    "telepon": "+62 (255) 341-9283",
+    "password": "zZT7oM4iB#",
+    "nomor_rekening": "MUOE42388496965328",
+    "kyc_status": "unverified",
+    "saldo": 1625206
+  },
+  {
+    "nik": "774-07-1797",
+    "nama": "Lutfan Manullang",
+    "email": "eriyanti@example.com",
+    "telepon": "(097) 848 0184",
+    "password": "KLDj7P1t_5",
+    "nomor_rekening": "LYFR80957015430391",
+    "kyc_status": "verified",
+    "saldo": 8253566
+  },
+  {
+    "nik": "836-09-8728",
+    "nama": "R.M. Cagak Wahyuni, M.Kom.",
+    "email": "kartanuraini@example.net",
+    "telepon": "(038) 346-5787",
+    "password": "DV53HY4c@^",
+    "nomor_rekening": "EXSS73763116566701",
+    "kyc_status": "verified",
+    "saldo": 6854864
+  },
+  {
+    "nik": "746-44-1791",
+    "nama": "Dadi Nainggolan",
+    "email": "bmandala@example.org",
+    "telepon": "+62 (0731) 781 0801",
+    "password": "Np2N!Gup$d",
+    "nomor_rekening": "JGBS80500978820812",
+    "kyc_status": "verified",
+    "saldo": 1240194
+  },
+  {
+    "nik": "692-31-6616",
+    "nama": "Wardaya Purnawati",
+    "email": "kiandrariyanti@example.org",
+    "telepon": "+62 (069) 985 4353",
+    "password": "Z%6E!vT*RP",
+    "nomor_rekening": "LJFO84980841241182",
+    "kyc_status": "unverified",
+    "saldo": 4827085
+  },
+  {
+    "nik": "620-27-5618",
+    "nama": "Mahfud Usada",
+    "email": "cornelia74@example.org",
+    "telepon": "+62 (064) 005 2427",
+    "password": "(6dR#aSJ$E",
+    "nomor_rekening": "LYRN92322602563421",
+    "kyc_status": "unverified",
+    "saldo": 749691
+  },
+  {
+    "nik": "880-61-3645",
+    "nama": "Rendy Haryanti",
+    "email": "lurhur33@example.org",
+    "telepon": "+62-654-145-8685",
+    "password": "!y#1Ikfy(s",
+    "nomor_rekening": "AQZR35615951484656",
+    "kyc_status": "unverified",
+    "saldo": 9401497
+  },
+  {
+    "nik": "131-25-6889",
+    "nama": "Wage Wibowo, S.E.",
+    "email": "rosman80@example.com",
+    "telepon": "+62 (0369) 957-7738",
+    "password": "9VX&w52c_*",
+    "nomor_rekening": "USGW67632016328708",
+    "kyc_status": "verified",
+    "saldo": 2136059
+  },
+  {
+    "nik": "468-18-7613",
+    "nama": "Karta Purwanti, M.Ak",
+    "email": "timbul98@example.com",
+    "telepon": "0872774348",
+    "password": "^98BR3Io*%",
+    "nomor_rekening": "NBGN69096705466889",
+    "kyc_status": "verified",
+    "saldo": 8291131
+  },
+  {
+    "nik": "225-35-7141",
+    "nama": "Ana Wibisono",
+    "email": "uli62@example.com",
+    "telepon": "+62 (98) 069 9016",
+    "password": "7CLFrbwJ#M",
+    "nomor_rekening": "UCYU00330923271937",
+    "kyc_status": "unverified",
+    "saldo": 6289034
+  },
+  {
+    "nik": "172-78-9950",
+    "nama": "Tina Latupono, S.E.",
+    "email": "darijan90@example.com",
+    "telepon": "(063) 193 1491",
+    "password": "JF0DLmrx)n",
+    "nomor_rekening": "TZRY77694531473799",
+    "kyc_status": "unverified",
+    "saldo": 5743798
+  },
+  {
+    "nik": "030-64-5326",
+    "nama": "Jinawi Prabowo",
+    "email": "kariman54@example.net",
+    "telepon": "+62 (0808) 313 6783",
+    "password": "Ok&47UVw+J",
+    "nomor_rekening": "JIHD35182337498941",
+    "kyc_status": "verified",
+    "saldo": 5070190
+  },
+  {
+    "nik": "233-47-2940",
+    "nama": "Amalia Nasyidah",
+    "email": "kuncaragunawan@example.org",
+    "telepon": "0842710947",
+    "password": "x7pKfOUc*m",
+    "nomor_rekening": "YNTT93867749649909",
+    "kyc_status": "verified",
+    "saldo": 3586102
+  },
+  {
+    "nik": "641-28-4336",
+    "nama": "Bajragin Manullang, S.H.",
+    "email": "indahhutagalung@example.org",
+    "telepon": "+62-67-974-0344",
+    "password": "+7CVv2(4+7",
+    "nomor_rekening": "TXSJ71746488771906",
+    "kyc_status": "unverified",
+    "saldo": 4300476
+  },
+  {
+    "nik": "027-12-3751",
+    "nama": "Raihan Permata, M.Farm",
+    "email": "wulandarikawaya@example.net",
+    "telepon": "+62-027-874-2967",
+    "password": "C@pC7LnmSL",
+    "nomor_rekening": "QAVR76038597703482",
+    "kyc_status": "unverified",
+    "saldo": 7450368
+  },
+  {
+    "nik": "716-63-1990",
+    "nama": "Lasmono Sudiati",
+    "email": "galionosaragih@example.net",
+    "telepon": "+62-86-131-7127",
+    "password": "8ny64QwP+p",
+    "nomor_rekening": "IAJX49972787558867",
+    "kyc_status": "unverified",
+    "saldo": 3265061
+  },
+  {
+    "nik": "715-31-9369",
+    "nama": "Gina Zulkarnain",
+    "email": "simanjuntakwarsita@example.net",
+    "telepon": "(062) 702 8951",
+    "password": "@_qx^1Qo*^",
+    "nomor_rekening": "RBTC34316117240050",
+    "kyc_status": "unverified",
+    "saldo": 6114016
+  },
+  {
+    "nik": "384-56-2386",
+    "nama": "Karta Zulkarnain",
+    "email": "ganepnatsir@example.org",
+    "telepon": "(093) 792 3747",
+    "password": "s%+0DVZo6o",
+    "nomor_rekening": "HMSL94406409097439",
+    "kyc_status": "unverified",
+    "saldo": 3774286
+  },
+  {
+    "nik": "652-25-4107",
+    "nama": "Perkasa Wahyuni, S.E.I",
+    "email": "utamisafina@example.org",
+    "telepon": "+62 (0709) 521-4562",
+    "password": "q$2Z0tvr9q",
+    "nomor_rekening": "VXVM85160481754965",
+    "kyc_status": "verified",
+    "saldo": 4022880
+  },
+  {
+    "nik": "483-04-9199",
+    "nama": "Rahmi Prasetya",
+    "email": "usadawisnu@example.net",
+    "telepon": "+62 (0612) 004-7113",
+    "password": "(wd2MoranX",
+    "nomor_rekening": "OOHL15850643171390",
+    "kyc_status": "verified",
+    "saldo": 5695355
+  },
+  {
+    "nik": "250-17-9251",
+    "nama": "Bagiya Puspasari",
+    "email": "lidyapratama@example.org",
+    "telepon": "+62 (290) 422 8421",
+    "password": "EaV@7EJ(_0",
+    "nomor_rekening": "OQHT08470076617711",
+    "kyc_status": "unverified",
+    "saldo": 2588628
+  },
+  {
+    "nik": "068-17-4506",
+    "nama": "Hj. Restu Pudjiastuti",
+    "email": "prabowo98@example.com",
+    "telepon": "(0896) 118 3673",
+    "password": "I5ObFmu%&&",
+    "nomor_rekening": "BSRR51656049451983",
+    "kyc_status": "verified",
+    "saldo": 8189795
+  },
+  {
+    "nik": "230-14-5737",
+    "nama": "Drs. Kartika Latupono, S.T.",
+    "email": "sidiqpurwanti@example.net",
+    "telepon": "0809402445",
+    "password": "^e_Y#F3JD0",
+    "nomor_rekening": "EFYT01476797643815",
+    "kyc_status": "unverified",
+    "saldo": 1960421
+  },
+  {
+    "nik": "291-87-9718",
+    "nama": "Paramita Widiastuti",
+    "email": "bakijan36@example.net",
+    "telepon": "+62-003-432-4451",
+    "password": "1!ePn7np$X",
+    "nomor_rekening": "SMWU64160529751613",
+    "kyc_status": "unverified",
+    "saldo": 9979620
+  },
+  {
+    "nik": "411-68-1289",
+    "nama": "Ira Sirait",
+    "email": "mulyantonarpati@example.org",
+    "telepon": "081 883 5523",
+    "password": "0+2^wIMgU@",
+    "nomor_rekening": "CPOU44905814770054",
+    "kyc_status": "verified",
+    "saldo": 1614923
+  },
+  {
+    "nik": "630-77-8308",
+    "nama": "Malika Prastuti",
+    "email": "hartatikani@example.net",
+    "telepon": "+62-597-820-7151",
+    "password": "e2QXEBhj($",
+    "nomor_rekening": "JIXV92519254629148",
+    "kyc_status": "unverified",
+    "saldo": 5610922
+  },
+  {
+    "nik": "833-17-8625",
+    "nama": "Mariadi Winarsih",
+    "email": "xmelani@example.org",
+    "telepon": "+62 (423) 573-3221",
+    "password": "%gQaqXWy11",
+    "nomor_rekening": "NLVX37947383473597",
+    "kyc_status": "unverified",
+    "saldo": 4827345
+  },
+  {
+    "nik": "797-49-8240",
+    "nama": "dr. Caraka Pangestu",
+    "email": "jaishabibi@example.net",
+    "telepon": "(0581) 814-1247",
+    "password": "(2ND@cP5zF",
+    "nomor_rekening": "EBJP27790104328986",
+    "kyc_status": "verified",
+    "saldo": 4933542
+  },
+  {
+    "nik": "244-39-1997",
+    "nama": "Digdaya Andriani",
+    "email": "hharyanto@example.com",
+    "telepon": "0808932460",
+    "password": ")b&y^5HsTG",
+    "nomor_rekening": "IXAL15319520585277",
+    "kyc_status": "verified",
+    "saldo": 2362450
+  },
+  {
+    "nik": "065-92-7499",
+    "nama": "Emil Pangestu",
+    "email": "pangestubakda@example.com",
+    "telepon": "+62 (0868) 740-3450",
+    "password": "l_HK5DIdFd",
+    "nomor_rekening": "FRJK11544796275705",
+    "kyc_status": "unverified",
+    "saldo": 4706274
+  },
+  {
+    "nik": "655-08-1230",
+    "nama": "Makuta Waskita, S.I.Kom",
+    "email": "aswanimegantara@example.net",
+    "telepon": "(0021) 355 6909",
+    "password": "K7_FL8xl#Q",
+    "nomor_rekening": "GTJW73121727155188",
+    "kyc_status": "unverified",
+    "saldo": 5132437
+  },
+  {
+    "nik": "872-21-2853",
+    "nama": "Tgk. Kacung Prasetyo, S.IP",
+    "email": "estiawanprakasa@example.com",
+    "telepon": "+62-58-957-8291",
+    "password": "fQMm^xwL@4",
+    "nomor_rekening": "QBDQ24225358414384",
+    "kyc_status": "verified",
+    "saldo": 5180553
+  },
+  {
+    "nik": "630-69-1531",
+    "nama": "Ir. Cawisadi Rahayu",
+    "email": "gangsawahyuni@example.net",
+    "telepon": "+62 (900) 109 4396",
+    "password": "SZA0lPLu+)",
+    "nomor_rekening": "EKWK56258815371473",
+    "kyc_status": "verified",
+    "saldo": 1724230
+  },
+  {
+    "nik": "052-38-6294",
+    "nama": "Ir. Lili Prayoga, S.E.",
+    "email": "kezia53@example.org",
+    "telepon": "(0877) 470-1687",
+    "password": "$8WobSl*)3",
+    "nomor_rekening": "RGLR41687849912165",
+    "kyc_status": "unverified",
+    "saldo": 9458865
+  },
+  {
+    "nik": "375-97-2364",
+    "nama": "Luhung Melani",
+    "email": "cmardhiyah@example.org",
+    "telepon": "+62-025-787-2982",
+    "password": "H^oVP9KTNf",
+    "nomor_rekening": "JZXW09749930972896",
+    "kyc_status": "verified",
+    "saldo": 4163384
+  },
+  {
+    "nik": "033-74-1801",
+    "nama": "Ajiman Farida",
+    "email": "raihan26@example.net",
+    "telepon": "+62-689-702-8385",
+    "password": "B0t7Qjfm_X",
+    "nomor_rekening": "KPLR44198665240415",
+    "kyc_status": "unverified",
+    "saldo": 4402415
+  },
+  {
+    "nik": "766-62-3506",
+    "nama": "Raden Nasyiah",
+    "email": "jamalia42@example.org",
+    "telepon": "+62-0308-330-1657",
+    "password": "y2aANah9@r",
+    "nomor_rekening": "XXBF62067240049915",
+    "kyc_status": "unverified",
+    "saldo": 7722712
+  },
+  {
+    "nik": "657-70-8591",
+    "nama": "Diana Mayasari",
+    "email": "msaputra@example.org",
+    "telepon": "+62 (274) 205 4932",
+    "password": ")H*yNq!GL6",
+    "nomor_rekening": "IULW30174268414593",
+    "kyc_status": "verified",
+    "saldo": 2340912
+  },
+  {
+    "nik": "490-20-7455",
+    "nama": "Rachel Wahyudin, S.Farm",
+    "email": "znasyiah@example.net",
+    "telepon": "+62-391-878-5191",
+    "password": "U+8Q(3Qg!l",
+    "nomor_rekening": "OSBR74064039106518",
+    "kyc_status": "verified",
+    "saldo": 1257949
+  },
+  {
+    "nik": "484-05-4704",
+    "nama": "Elvina Mansur",
+    "email": "ywahyudin@example.com",
+    "telepon": "(061) 825 1286",
+    "password": "(2yXfJh4M+",
+    "nomor_rekening": "TYAH31190790306738",
+    "kyc_status": "verified",
+    "saldo": 1046973
+  },
+  {
+    "nik": "144-65-4740",
+    "nama": "Rahman Permata",
+    "email": "kezia95@example.org",
+    "telepon": "+62 (0283) 644-0892",
+    "password": "$D_6RdIp1R",
+    "nomor_rekening": "BRNN88263435175183",
+    "kyc_status": "verified",
+    "saldo": 4604038
+  },
+  {
+    "nik": "387-87-9912",
+    "nama": "Cut Belinda Nainggolan",
+    "email": "yusufpranowo@example.com",
+    "telepon": "+62 (0033) 173-9363",
+    "password": "(RE5PYjyMo",
+    "nomor_rekening": "SHXE04899642353693",
+    "kyc_status": "unverified",
+    "saldo": 9338248
+  },
+  {
+    "nik": "671-88-5531",
+    "nama": "Vanesa Lestari",
+    "email": "kharyanti@example.net",
+    "telepon": "+62 (228) 728-0801",
+    "password": "_o5e!PYa0X",
+    "nomor_rekening": "AAQX48408621182339",
+    "kyc_status": "unverified",
+    "saldo": 6046534
+  },
+  {
+    "nik": "274-51-1295",
+    "nama": "Latika Haryanti",
+    "email": "zamiraprasetyo@example.com",
+    "telepon": "+62 (001) 666 8700",
+    "password": "+ZCyCsups2",
+    "nomor_rekening": "CVIR90250392614293",
+    "kyc_status": "unverified",
+    "saldo": 9169132
+  },
+  {
+    "nik": "340-50-2293",
+    "nama": "H. Nyoman Hutapea, M.TI.",
+    "email": "balamantri16@example.org",
+    "telepon": "+62 (059) 996 5047",
+    "password": "v*3a&Lre&+",
+    "nomor_rekening": "CAJO54121267888610",
+    "kyc_status": "verified",
+    "saldo": 6037696
+  },
+  {
+    "nik": "568-12-9781",
+    "nama": "dr. Zelaya Winarno",
+    "email": "siregarraden@example.com",
+    "telepon": "+62 (083) 982 6224",
+    "password": "%4PNe66YV2",
+    "nomor_rekening": "MKTM57569245937526",
+    "kyc_status": "unverified",
+    "saldo": 4989688
+  },
+  {
+    "nik": "753-89-8045",
+    "nama": "R.A. Jane Waluyo",
+    "email": "panji51@example.net",
+    "telepon": "+62-982-807-3741",
+    "password": "76+JFEuV&u",
+    "nomor_rekening": "WZRT11352909656101",
+    "kyc_status": "unverified",
+    "saldo": 3824560
+  },
+  {
+    "nik": "523-96-8500",
+    "nama": "Drs. Malik Permata",
+    "email": "triwahyudin@example.com",
+    "telepon": "(0982) 507 1461",
+    "password": "@2LD*jL%$e",
+    "nomor_rekening": "XHQF82586736226609",
+    "kyc_status": "verified",
+    "saldo": 7642617
+  },
+  {
+    "nik": "607-55-6371",
+    "nama": "Niyaga Prabowo",
+    "email": "kalimharyanto@example.net",
+    "telepon": "+62 (082) 553-7147",
+    "password": "X(5TXmeAX&",
+    "nomor_rekening": "JDFL28669296627828",
+    "kyc_status": "verified",
+    "saldo": 8314830
+  }
+]

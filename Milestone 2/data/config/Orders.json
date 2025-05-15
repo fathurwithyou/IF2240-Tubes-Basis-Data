@@ -1,0 +1,27 @@
+{
+  "table": "orders",
+  "columns": {
+    "order_id": "INT AUTO_INCREMENT",
+    "nik": "VARCHAR(100)",
+    "ticker": "VARCHAR(100)",
+    "tipe_order": "ENUM('beli', 'jual')",
+    "harga": "INT",
+    "jumlah_lembar": "INT",
+    "status": "ENUM('pending', 'partial', 'executed')"
+  },
+  "primary_key": ["order_id"],
+  "foreign_keys": [
+    {
+      "column": "nik",
+      "references": "users(nik)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    },
+    {
+      "column": "ticker",
+      "references": "stocks(ticker)",
+      "on_delete": "CASCADE",
+      "on_update": "CASCADE"
+    }
+  ]
+}
