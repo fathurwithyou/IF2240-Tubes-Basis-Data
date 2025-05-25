@@ -1,0 +1,162 @@
+[
+  {
+    "nik": "484-05-4704",
+    "ticker": "DATA.JK",
+    "jumlah_lembar": 3274,
+    "waktu_pesanan": "2025-04-25 05:36:41",
+    "status_pesanan": "failed",
+    "total_nilai_pesanan": 27527792
+  },
+  {
+    "nik": "620-27-5618",
+    "ticker": "ELIT.JK",
+    "jumlah_lembar": 3688,
+    "waktu_pesanan": "2025-05-20 08:56:49",
+    "status_pesanan": "rejected",
+    "total_nilai_pesanan": 12649840
+  },
+  {
+    "nik": "065-92-7499",
+    "ticker": "WIFI.JK",
+    "jumlah_lembar": 5008,
+    "waktu_pesanan": "2025-04-16 05:37:58",
+    "status_pesanan": "failed",
+    "total_nilai_pesanan": 19270784
+  },
+  {
+    "nik": "490-20-7455",
+    "ticker": "BAYU.JK",
+    "jumlah_lembar": 3298,
+    "waktu_pesanan": "2025-04-17 05:57:42",
+    "status_pesanan": "rejected",
+    "total_nilai_pesanan": 16707668
+  },
+  {
+    "nik": "483-04-9199",
+    "ticker": "VKTR.JK",
+    "jumlah_lembar": 2997,
+    "waktu_pesanan": "2025-03-03 17:36:43",
+    "status_pesanan": "approved",
+    "total_nilai_pesanan": 25684290
+  },
+  {
+    "nik": "641-28-4336",
+    "ticker": "EXCL.JK",
+    "jumlah_lembar": 6368,
+    "waktu_pesanan": "2025-05-03 10:54:41",
+    "status_pesanan": "rejected",
+    "total_nilai_pesanan": 27038528
+  },
+  {
+    "nik": "484-05-4704",
+    "ticker": "BINA.JK",
+    "jumlah_lembar": 6750,
+    "waktu_pesanan": "2025-01-27 18:39:33",
+    "status_pesanan": "failed",
+    "total_nilai_pesanan": 63531000
+  },
+  {
+    "nik": "274-51-1295",
+    "ticker": "BOLT.JK",
+    "jumlah_lembar": 877,
+    "waktu_pesanan": "2025-03-06 05:51:53",
+    "status_pesanan": "rejected",
+    "total_nilai_pesanan": 5170792
+  },
+  {
+    "nik": "144-65-4740",
+    "ticker": "FORE.JK",
+    "jumlah_lembar": 969,
+    "waktu_pesanan": "2025-03-28 12:15:19",
+    "status_pesanan": "allocated",
+    "total_nilai_pesanan": 3188010
+  },
+  {
+    "nik": "880-61-3645",
+    "ticker": "ISAT.JK",
+    "jumlah_lembar": 4633,
+    "waktu_pesanan": "2025-05-17 20:05:01",
+    "status_pesanan": "pending",
+    "total_nilai_pesanan": 9312330
+  },
+  {
+    "nik": "774-07-1797",
+    "ticker": "WIFI.JK",
+    "jumlah_lembar": 6546,
+    "waktu_pesanan": "2025-03-11 22:12:57",
+    "status_pesanan": "allocated",
+    "total_nilai_pesanan": 25189008
+  },
+  {
+    "nik": "652-25-4107",
+    "ticker": "BINA.JK",
+    "jumlah_lembar": 5597,
+    "waktu_pesanan": "2025-03-10 10:29:08",
+    "status_pesanan": "pending",
+    "total_nilai_pesanan": 52678964
+  },
+  {
+    "nik": "880-61-3645",
+    "ticker": "EXCL.JK",
+    "jumlah_lembar": 6067,
+    "waktu_pesanan": "2025-03-19 02:27:40",
+    "status_pesanan": "approved",
+    "total_nilai_pesanan": 25760482
+  },
+  {
+    "nik": "027-12-3751",
+    "ticker": "BAYU.JK",
+    "jumlah_lembar": 3474,
+    "waktu_pesanan": "2025-04-20 15:05:30",
+    "status_pesanan": "approved",
+    "total_nilai_pesanan": 17599284
+  },
+  {
+    "nik": "131-25-6889",
+    "ticker": "FORE.JK",
+    "jumlah_lembar": 259,
+    "waktu_pesanan": "2025-04-26 08:33:04",
+    "status_pesanan": "pending",
+    "total_nilai_pesanan": 852110
+  },
+  {
+    "nik": "244-39-1997",
+    "ticker": "DATA.JK",
+    "jumlah_lembar": 8961,
+    "waktu_pesanan": "2025-03-06 17:19:15",
+    "status_pesanan": "rejected",
+    "total_nilai_pesanan": 75344088
+  },
+  {
+    "nik": "387-87-9912",
+    "ticker": "BAYU.JK",
+    "jumlah_lembar": 1855,
+    "waktu_pesanan": "2025-01-09 06:05:18",
+    "status_pesanan": "allocated",
+    "total_nilai_pesanan": 9397430
+  },
+  {
+    "nik": "630-77-8308",
+    "ticker": "VKTR.JK",
+    "jumlah_lembar": 5170,
+    "waktu_pesanan": "2025-05-22 20:56:07",
+    "status_pesanan": "pending",
+    "total_nilai_pesanan": 44306900
+  },
+  {
+    "nik": "753-89-8045",
+    "ticker": "ISAT.JK",
+    "jumlah_lembar": 9931,
+    "waktu_pesanan": "2025-01-20 18:02:02",
+    "status_pesanan": "approved",
+    "total_nilai_pesanan": 19961310
+  },
+  {
+    "nik": "630-77-8308",
+    "ticker": "EXCL.JK",
+    "jumlah_lembar": 1733,
+    "waktu_pesanan": "2025-01-17 04:22:03",
+    "status_pesanan": "pending",
+    "total_nilai_pesanan": 7358318
+  }
+]
