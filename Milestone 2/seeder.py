@@ -27,6 +27,7 @@ class Seeder:
         listdirs += ['Orders.json', 'Transactions.json', 'Portfolios.json']
         listdirs += ['Comment_Likes.json', 'Comment_Replies.json']
         listdirs += ['Predictions.json', 'Prediction_Voting.json']
+        listdirs += ['Order_IPO.json']
         
         for filename in listdirs:
             if not filename.endswith('.json'):
