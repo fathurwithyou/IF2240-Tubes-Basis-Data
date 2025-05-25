@@ -1,0 +1,302 @@
+[
+  {
+    "post_id": 50,
+    "ticker": "TINS.JK",
+    "price": 224804,
+    "durasi": 240
+  },
+  {
+    "post_id": 89,
+    "ticker": "TINS.JK",
+    "price": 53507,
+    "durasi": 264
+  },
+  {
+    "post_id": 20,
+    "ticker": "GGRM.JK",
+    "price": 483172,
+    "durasi": 277
+  },
+  {
+    "post_id": 91,
+    "ticker": "PGAS.JK",
+    "price": 885311,
+    "durasi": 88
+  },
+  {
+    "post_id": 28,
+    "ticker": "BBCA.JK",
+    "price": 110875,
+    "durasi": 46
+  },
+  {
+    "post_id": 9,
+    "ticker": "GGRM.JK",
+    "price": 430744,
+    "durasi": 29
+  },
+  {
+    "post_id": 54,
+    "ticker": "PTBA.JK",
+    "price": 881931,
+    "durasi": 82
+  },
+  {
+    "post_id": 53,
+    "ticker": "TLKM.JK",
+    "price": 692902,
+    "durasi": 341
+  },
+  {
+    "post_id": 43,
+    "ticker": "HMSP.JK",
+    "price": 691338,
+    "durasi": 15
+  },
+  {
+    "post_id": 70,
+    "ticker": "BRPT.JK",
+    "price": 661517,
+    "durasi": 339
+  },
+  {
+    "post_id": 60,
+    "ticker": "TLKM.JK",
+    "price": 658314,
+    "durasi": 133
+  },
+  {
+    "post_id": 94,
+    "ticker": "PGAS.JK",
+    "price": 99746,
+    "durasi": 280
+  },
+  {
+    "post_id": 8,
+    "ticker": "SMGR.JK",
+    "price": 989606,
+    "durasi": 43
+  },
+  {
+    "post_id": 27,
+    "ticker": "PTBA.JK",
+    "price": 246686,
+    "durasi": 190
+  },
+  {
+    "post_id": 99,
+    "ticker": "MDKA.JK",
+    "price": 717638,
+    "durasi": 360
+  },
+  {
+    "post_id": 100,
+    "ticker": "JPFA.JK",
+    "price": 787452,
+    "durasi": 315
+  },
+  {
+    "post_id": 75,
+    "ticker": "BRPT.JK",
+    "price": 599376,
+    "durasi": 263
+  },
+  {
+    "post_id": 3,
+    "ticker": "MDKA.JK",
+    "price": 624449,
+    "durasi": 259
+  },
+  {
+    "post_id": 74,
+    "ticker": "MDKA.JK",
+    "price": 927988,
+    "durasi": 300
+  },
+  {
+    "post_id": 49,
+    "ticker": "ASII.JK",
+    "price": 470420,
+    "durasi": 76
+  },
+  {
+    "post_id": 62,
+    "ticker": "UNVR.JK",
+    "price": 941091,
+    "durasi": 58
+  },
+  {
+    "post_id": 1,
+    "ticker": "PTBA.JK",
+    "price": 87606,
+    "durasi": 228
+  },
+  {
+    "post_id": 46,
+    "ticker": "SMGR.JK",
+    "price": 23551,
+    "durasi": 276
+  },
+  {
+    "post_id": 39,
+    "ticker": "ASII.JK",
+    "price": 528164,
+    "durasi": 321
+  },
+  {
+    "post_id": 85,
+    "ticker": "HMSP.JK",
+    "price": 616242,
+    "durasi": 149
+  },
+  {
+    "post_id": 86,
+    "ticker": "PTBA.JK",
+    "price": 972922,
+    "durasi": 339
+  },
+  {
+    "post_id": 69,
+    "ticker": "SMGR.JK",
+    "price": 532954,
+    "durasi": 16
+  },
+  {
+    "post_id": 97,
+    "ticker": "HMSP.JK",
+    "price": 854973,
+    "durasi": 37
+  },
+  {
+    "post_id": 29,
+    "ticker": "BBCA.JK",
+    "price": 573220,
+    "durasi": 205
+  },
+  {
+    "post_id": 63,
+    "ticker": "BRPT.JK",
+    "price": 937648,
+    "durasi": 134
+  },
+  {
+    "post_id": 72,
+    "ticker": "PGAS.JK",
+    "price": 318936,
+    "durasi": 274
+  },
+  {
+    "post_id": 35,
+    "ticker": "BMRI.JK",
+    "price": 145005,
+    "durasi": 83
+  },
+  {
+    "post_id": 56,
+    "ticker": "ITMG.JK",
+    "price": 794695,
+    "durasi": 62
+  },
+  {
+    "post_id": 71,
+    "ticker": "PGAS.JK",
+    "price": 473263,
+    "durasi": 183
+  },
+  {
+    "post_id": 4,
+    "ticker": "MDKA.JK",
+    "price": 547350,
+    "durasi": 263
+  },
+  {
+    "post_id": 76,
+    "ticker": "JPFA.JK",
+    "price": 773317,
+    "durasi": 120
+  },
+  {
+    "post_id": 44,
+    "ticker": "GGRM.JK",
+    "price": 598878,
+    "durasi": 226
+  },
+  {
+    "post_id": 92,
+    "ticker": "BBCA.JK",
+    "price": 531518,
+    "durasi": 192
+  },
+  {
+    "post_id": 64,
+    "ticker": "ASII.JK",
+    "price": 458977,
+    "durasi": 6
+  },
+  {
+    "post_id": 52,
+    "ticker": "GGRM.JK",
+    "price": 565337,
+    "durasi": 89
+  },
+  {
+    "post_id": 26,
+    "ticker": "PGAS.JK",
+    "price": 64762,
+    "durasi": 14
+  },
+  {
+    "post_id": 47,
+    "ticker": "ASII.JK",
+    "price": 272156,
+    "durasi": 277
+  },
+  {
+    "post_id": 11,
+    "ticker": "PGAS.JK",
+    "price": 49146,
+    "durasi": 215
+  },
+  {
+    "post_id": 84,
+    "ticker": "JPFA.JK",
+    "price": 497397,
+    "durasi": 164
+  },
+  {
+    "post_id": 30,
+    "ticker": "JPFA.JK",
+    "price": 496315,
+    "durasi": 342
+  },
+  {
+    "post_id": 95,
+    "ticker": "HMSP.JK",
+    "price": 98298,
+    "durasi": 93
+  },
+  {
+    "post_id": 40,
+    "ticker": "PGAS.JK",
+    "price": 883075,
+    "durasi": 97
+  },
+  {
+    "post_id": 82,
+    "ticker": "TINS.JK",
+    "price": 398770,
+    "durasi": 289
+  },
+  {
+    "post_id": 2,
+    "ticker": "TLKM.JK",
+    "price": 89313,
+    "durasi": 154
+  },
+  {
+    "post_id": 90,
+    "ticker": "JPFA.JK",
+    "price": 624666,
+    "durasi": 207
+  }
+]

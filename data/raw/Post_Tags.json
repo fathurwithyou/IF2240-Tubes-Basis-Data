@@ -1,151 +1,151 @@
 [
   {
     "post_id": 61,
-    "ticker": "BAYU.JK"
+    "ticker": "ASII.JK"
   },
   {
     "post_id": 22,
-    "ticker": "BOLT.JK"
+    "ticker": "TLKM.JK"
   },
   {
     "post_id": 11,
-    "ticker": "WIFI.JK"
-  },
-  {
-    "post_id": 66,
-    "ticker": "BOLT.JK"
-  },
-  {
-    "post_id": 82,
-    "ticker": "TINS.JK"
-  },
-  {
-    "post_id": 43,
-    "ticker": "UNVR.JK"
-  },
-  {
-    "post_id": 97,
-    "ticker": "MDKA.JK"
-  },
-  {
-    "post_id": 87,
-    "ticker": "WIFI.JK"
-  },
-  {
-    "post_id": 29,
-    "ticker": "BRPT.JK"
-  },
-  {
-    "post_id": 19,
     "ticker": "FORE.JK"
   },
   {
-    "post_id": 6,
-    "ticker": "MDKA.JK"
-  },
-  {
-    "post_id": 61,
-    "ticker": "TINS.JK"
-  },
-  {
-    "post_id": 99,
-    "ticker": "UNVR.JK"
-  },
-  {
-    "post_id": 59,
-    "ticker": "ASII.JK"
-  },
-  {
-    "post_id": 81,
-    "ticker": "JPFA.JK"
-  },
-  {
-    "post_id": 25,
-    "ticker": "PGAS.JK"
-  },
-  {
-    "post_id": 90,
-    "ticker": "BBCA.JK"
-  },
-  {
-    "post_id": 64,
-    "ticker": "BBCA.JK"
-  },
-  {
-    "post_id": 32,
-    "ticker": "ITMG.JK"
-  },
-  {
-    "post_id": 84,
-    "ticker": "PGAS.JK"
-  },
-  {
-    "post_id": 1,
-    "ticker": "EXCL.JK"
-  },
-  {
-    "post_id": 99,
-    "ticker": "ISAT.JK"
-  },
-  {
-    "post_id": 100,
-    "ticker": "ASII.JK"
-  },
-  {
-    "post_id": 29,
+    "post_id": 66,
     "ticker": "TLKM.JK"
   },
   {
-    "post_id": 90,
-    "ticker": "GGRM.JK"
+    "post_id": 82,
+    "ticker": "BMRI.JK"
   },
   {
-    "post_id": 60,
+    "post_id": 43,
+    "ticker": "BOLT.JK"
+  },
+  {
+    "post_id": 97,
     "ticker": "SMGR.JK"
   },
   {
-    "post_id": 72,
-    "ticker": "MDKA.JK"
+    "post_id": 87,
+    "ticker": "FORE.JK"
   },
   {
-    "post_id": 16,
-    "ticker": "DATA.JK"
+    "post_id": 29,
+    "ticker": "UNVR.JK"
   },
   {
-    "post_id": 18,
-    "ticker": "DATA.JK"
+    "post_id": 19,
+    "ticker": "PGAS.JK"
   },
   {
-    "post_id": 86,
-    "ticker": "GGRM.JK"
+    "post_id": 6,
+    "ticker": "SMGR.JK"
   },
   {
-    "post_id": 72,
-    "ticker": "TINS.JK"
+    "post_id": 61,
+    "ticker": "BMRI.JK"
   },
   {
-    "post_id": 41,
+    "post_id": 99,
+    "ticker": "BOLT.JK"
+  },
+  {
+    "post_id": 59,
     "ticker": "EXCL.JK"
   },
   {
-    "post_id": 57,
+    "post_id": 81,
+    "ticker": "VKTR.JK"
+  },
+  {
+    "post_id": 25,
+    "ticker": "PTBA.JK"
+  },
+  {
+    "post_id": 90,
+    "ticker": "WIFI.JK"
+  },
+  {
+    "post_id": 64,
+    "ticker": "WIFI.JK"
+  },
+  {
+    "post_id": 32,
     "ticker": "TINS.JK"
   },
   {
+    "post_id": 84,
+    "ticker": "PTBA.JK"
+  },
+  {
+    "post_id": 1,
+    "ticker": "HMSP.JK"
+  },
+  {
+    "post_id": 99,
+    "ticker": "ITMG.JK"
+  },
+  {
+    "post_id": 100,
+    "ticker": "EXCL.JK"
+  },
+  {
+    "post_id": 29,
+    "ticker": "BAYU.JK"
+  },
+  {
+    "post_id": 90,
+    "ticker": "DATA.JK"
+  },
+  {
+    "post_id": 60,
+    "ticker": "MDKA.JK"
+  },
+  {
+    "post_id": 72,
+    "ticker": "SMGR.JK"
+  },
+  {
+    "post_id": 16,
+    "ticker": "JPFA.JK"
+  },
+  {
+    "post_id": 18,
+    "ticker": "JPFA.JK"
+  },
+  {
+    "post_id": 86,
+    "ticker": "DATA.JK"
+  },
+  {
+    "post_id": 72,
+    "ticker": "BMRI.JK"
+  },
+  {
+    "post_id": 41,
+    "ticker": "HMSP.JK"
+  },
+  {
+    "post_id": 57,
+    "ticker": "BMRI.JK"
+  },
+  {
     "post_id": 93,
-    "ticker": "GGRM.JK"
+    "ticker": "DATA.JK"
   },
   {
     "post_id": 55,
-    "ticker": "BINA.JK"
+    "ticker": "GGRM.JK"
   },
   {
     "post_id": 58,
-    "ticker": "TLKM.JK"
+    "ticker": "BAYU.JK"
   },
   {
     "post_id": 96,
-    "ticker": "PTBA.JK"
+    "ticker": "ISAT.JK"
   },
   {
     "post_id": 58,
@@ -157,42 +157,42 @@
   },
   {
     "post_id": 99,
-    "ticker": "EXCL.JK"
+    "ticker": "HMSP.JK"
   },
   {
     "post_id": 67,
-    "ticker": "PTBA.JK"
+    "ticker": "ISAT.JK"
   },
   {
     "post_id": 81,
-    "ticker": "MDKA.JK"
+    "ticker": "SMGR.JK"
   },
   {
     "post_id": 36,
-    "ticker": "DATA.JK"
+    "ticker": "JPFA.JK"
   },
   {
     "post_id": 10,
-    "ticker": "PGAS.JK"
+    "ticker": "PTBA.JK"
   },
   {
     "post_id": 37,
-    "ticker": "MDKA.JK"
+    "ticker": "SMGR.JK"
   },
   {
     "post_id": 35,
-    "ticker": "VKTR.JK"
+    "ticker": "BRPT.JK"
   },
   {
     "post_id": 41,
-    "ticker": "BINA.JK"
+    "ticker": "GGRM.JK"
   },
   {
     "post_id": 11,
-    "ticker": "ITMG.JK"
+    "ticker": "TINS.JK"
   },
   {
     "post_id": 20,
-    "ticker": "MDKA.JK"
+    "ticker": "SMGR.JK"
   }
 ]

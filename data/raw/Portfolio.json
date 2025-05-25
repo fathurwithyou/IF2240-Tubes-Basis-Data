@@ -1,0 +1,206 @@
+[
+  {
+    "nik": "833-17-8625",
+    "ticker": "ASII.JK",
+    "jumlah": 4700,
+    "average_cost": 4166.0
+  },
+  {
+    "nik": "244-39-1997",
+    "ticker": "PTBA.JK",
+    "jumlah": 2500,
+    "average_cost": 4811.0
+  },
+  {
+    "nik": "172-78-9950",
+    "ticker": "ISAT.JK",
+    "jumlah": 3600,
+    "average_cost": 7463.0
+  },
+  {
+    "nik": "766-62-3506",
+    "ticker": "HMSP.JK",
+    "jumlah": 1800,
+    "average_cost": 8404.0
+  },
+  {
+    "nik": "715-31-9369",
+    "ticker": "ASII.JK",
+    "jumlah": 5900,
+    "average_cost": 3865.0
+  },
+  {
+    "nik": "047-85-3734",
+    "ticker": "BOLT.JK",
+    "jumlah": 67459,
+    "average_cost": 2638.0
+  },
+  {
+    "nik": "052-38-6294",
+    "ticker": "HMSP.JK",
+    "jumlah": 41007,
+    "average_cost": 7860.0
+  },
+  {
+    "nik": "630-69-1531",
+    "ticker": "BBCA.JK",
+    "jumlah": 43575,
+    "average_cost": 7563.0
+  },
+  {
+    "nik": "230-14-5737",
+    "ticker": "BBCA.JK",
+    "jumlah": 3400,
+    "average_cost": 4351.0
+  },
+  {
+    "nik": "715-31-9369",
+    "ticker": "BMRI.JK",
+    "jumlah": 1000,
+    "average_cost": 3712.0
+  },
+  {
+    "nik": "692-31-6616",
+    "ticker": "SMGR.JK",
+    "jumlah": 5400,
+    "average_cost": 1959.0
+  },
+  {
+    "nik": "753-89-8045",
+    "ticker": "GGRM.JK",
+    "jumlah": 4400,
+    "average_cost": 6355.0
+  },
+  {
+    "nik": "250-17-9251",
+    "ticker": "BINA.JK",
+    "jumlah": 3900,
+    "average_cost": 1235.0
+  },
+  {
+    "nik": "172-78-9950",
+    "ticker": "ASII.JK",
+    "jumlah": 1700,
+    "average_cost": 1717.0
+  },
+  {
+    "nik": "746-44-1791",
+    "ticker": "VKTR.JK",
+    "jumlah": 59384,
+    "average_cost": 5352.0
+  },
+  {
+    "nik": "030-64-5326",
+    "ticker": "FORE.JK",
+    "jumlah": 4900,
+    "average_cost": 2295.0
+  },
+  {
+    "nik": "065-92-7499",
+    "ticker": "JPFA.JK",
+    "jumlah": 1800,
+    "average_cost": 2595.0
+  },
+  {
+    "nik": "027-12-3751",
+    "ticker": "ITMG.JK",
+    "jumlah": 3800,
+    "average_cost": 3505.0
+  },
+  {
+    "nik": "716-63-1990",
+    "ticker": "HMSP.JK",
+    "jumlah": 5654,
+    "average_cost": 5376.0
+  },
+  {
+    "nik": "052-38-6294",
+    "ticker": "TINS.JK",
+    "jumlah": 62205,
+    "average_cost": 2775.0
+  },
+  {
+    "nik": "340-50-2293",
+    "ticker": "UNVR.JK",
+    "jumlah": 3500,
+    "average_cost": 5338.0
+  },
+  {
+    "nik": "027-12-3751",
+    "ticker": "FORE.JK",
+    "jumlah": 77873,
+    "average_cost": 1405.0
+  },
+  {
+    "nik": "630-77-8308",
+    "ticker": "ISAT.JK",
+    "jumlah": 76874,
+    "average_cost": 2850.0
+  },
+  {
+    "nik": "620-27-5618",
+    "ticker": "EXCL.JK",
+    "jumlah": 86663,
+    "average_cost": 6861.0
+  },
+  {
+    "nik": "033-74-1801",
+    "ticker": "FORE.JK",
+    "jumlah": 26725,
+    "average_cost": 1876.0
+  },
+  {
+    "nik": "131-25-6889",
+    "ticker": "ISAT.JK",
+    "jumlah": 20688,
+    "average_cost": 2376.0
+  },
+  {
+    "nik": "033-74-1801",
+    "ticker": "BMRI.JK",
+    "jumlah": 60520,
+    "average_cost": 7565.0
+  },
+  {
+    "nik": "655-08-1230",
+    "ticker": "BRPT.JK",
+    "jumlah": 42789,
+    "average_cost": 4710.0
+  },
+  {
+    "nik": "274-51-1295",
+    "ticker": "ISAT.JK",
+    "jumlah": 78120,
+    "average_cost": 4720.0
+  },
+  {
+    "nik": "655-08-1230",
+    "ticker": "JPFA.JK",
+    "jumlah": 92977,
+    "average_cost": 7730.0
+  },
+  {
+    "nik": "033-74-1801",
+    "ticker": "TLKM.JK",
+    "jumlah": 92014,
+    "average_cost": 7908.0
+  },
+  {
+    "nik": "523-96-8500",
+    "ticker": "JPFA.JK",
+    "jumlah": 70916,
+    "average_cost": 9957.0
+  },
+  {
+    "nik": "716-63-1990",
+    "ticker": "BRPT.JK",
+    "jumlah": 91289,
+    "average_cost": 7485.0
+  },
+  {
+    "nik": "641-28-4336",
+    "ticker": "BINA.JK",
+    "jumlah": 48826,
+    "average_cost": 2512.0
+  }
+]
