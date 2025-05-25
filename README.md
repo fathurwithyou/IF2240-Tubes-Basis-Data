@@ -21,7 +21,6 @@ The core functionality involves:
 ## Directory Structure
 
 ```
-Milestone 2/
 ├── data/
 │   ├── config/                 # JSON files defining table schemas
 │   │   ├── Comments.json
@@ -37,7 +36,7 @@ Milestone 2/
 ├── seeder.ipynb                # Jupyter notebook for SQL seeder generation (alternative to seeder.py)
 ├── seeder.py                   # Python script for SQL seeder generation
 ├── test.py                     # Python script for testing database seeding
-└── archive.md                  # Project archive and entity checklist
+└── README.md                   # This
 ```
 
 ## Prerequisites
@@ -136,4 +135,4 @@ Contributions to this project are welcome. Please follow standard coding practic
 
 ## License
 
-(MIT)[LICENSE]
+[MIT](LICENSE)
