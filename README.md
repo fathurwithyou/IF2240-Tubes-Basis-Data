@@ -33,7 +33,6 @@ The core functionality involves:
 │   └── seeder/
 │       └── seeder.sql          # Generated SQL seeder script
 ├── generator.ipynb             # Jupyter notebook for data generation
-├── seeder.ipynb                # Jupyter notebook for SQL seeder generation (alternative to seeder.py)
 ├── seeder.py                   # Python script for SQL seeder generation
 ├── test.py                     # Python script for testing database seeding
 └── README.md                   # This
@@ -53,10 +52,9 @@ The core functionality involves:
 
 ## Setup and Installation
 
-1.  **Clone the Repository (if applicable)**
+1.  **Clone the Repository**
     ```bash
-    git clone <repository-url>
-    cd Milestone 2
+    git clone https://github.com/fathurwithyou/IF2240-Tubes-Basis-Data.git
     ```
 
 2.  **Install Python Dependencies**
