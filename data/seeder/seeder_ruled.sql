@@ -8536,3 +8536,308 @@ INSERT INTO order_ipo (nik, ticker, jumlah_lembar, waktu_pesanan, status_pesanan
     ('523-96-8500', 'BINA.JK', '1319', '2025-03-29 05:47:32', 'pending', '12414428'),
     ('233-47-2940', 'FORE.JK', '4430', '2025-05-21 00:07:54', 'rejected', '14574700'),
     ('233-47-2940', 'BAYU.JK', '4464', '2025-01-26 14:39:12', 'pending', '22614624');
+
+-- --- Start of 1Lot.sql ---
+DELIMITER $$
+
+
+CREATE TRIGGER trg_enforce_lot_rule_orders
+BEFORE INSERT ON orders
+FOR EACH ROW
+BEGIN
+    IF NEW.jumlah_lembar <= 0 OR NEW.jumlah_lembar % 100 != 0 THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Order failed: Jumlah lembar saham harus merupakan kelipatan 100 (1 lot) dan lebih besar dari 0.';
+    END IF;
+END$$
+
+
+DELIMITER ;
+
+-- --- End of 1Lot.sql ---
+
+-- --- Start of AveragePrice.sql ---
+DELIMITER //
+
+
+DROP TRIGGER IF EXISTS AfterTransactionUpdateUpdatePortfolio;
+DROP TRIGGER IF EXISTS AfterTransactionInsertUpdatePortfolio; -- Dropping both in case of previous name or for safety
+
+
+CREATE TRIGGER AfterTransactionInsertUpdatePortfolio
+AFTER INSERT ON transactions
+FOR EACH ROW
+BEGIN
+    DECLARE v_nik VARCHAR(100);
+    DECLARE v_ticker VARCHAR(100);
+    DECLARE v_tipe_order ENUM('beli', 'jual');
+    DECLARE v_harga INT;
+    DECLARE v_status ENUM('pending', 'partial', 'executed');
+
+
+    DECLARE transaction_shares_executed INT;
+    DECLARE transaction_cost DOUBLE;
+
+
+    DECLARE current_jumlah_lembar INT;
+    DECLARE current_average_cost DOUBLE;
+    DECLARE new_total_cost DOUBLE;
+    DECLARE new_total_lembar INT;
+    DECLARE updated_average_cost DOUBLE;
+
+
+    SELECT
+        o.nik,
+        o.ticker,
+        o.tipe_order,
+        o.harga,
+        o.status
+    INTO
+        v_nik,
+        v_ticker,
+        v_tipe_order,
+        v_harga,
+        v_status
+    FROM
+        orders o
+    WHERE
+        o.order_id = NEW.order_id;
+
+
+    SET transaction_shares_executed = NEW.jumlah;
+    SET transaction_cost = (NEW.jumlah * v_harga);
+
+
+    IF v_tipe_order = 'beli' AND (v_status = 'executed' OR v_status = 'partial') AND transaction_shares_executed > 0 THEN
+
+
+        SELECT jumlah_lembar, average_cost
+        INTO current_jumlah_lembar, current_average_cost
+        FROM portfolios
+        WHERE nik = v_nik AND ticker = v_ticker;
+
+
+        IF current_jumlah_lembar IS NOT NULL THEN
+            SET new_total_cost = (current_jumlah_lembar * current_average_cost) + transaction_cost;
+            SET new_total_lembar = current_jumlah_lembar + transaction_shares_executed;
+
+
+            IF new_total_lembar > 0 THEN
+                SET updated_average_cost = new_total_cost / new_total_lembar;
+            ELSE
+                SET updated_average_cost = 0;
+            END IF;
+
+
+            UPDATE portfolios
+            SET
+                jumlah_lembar = new_total_lembar,
+                average_cost = updated_average_cost
+            WHERE nik = v_nik AND ticker = v_ticker;
+        ELSE
+            INSERT INTO portfolios (nik, ticker, jumlah_lembar, average_cost)
+            VALUES (v_nik, v_ticker, transaction_shares_executed, v_harga);
+        END IF;
+    END IF;
+END //
+
+
+DELIMITER ;
+-- --- End of AveragePrice.sql ---
+
+-- --- Start of JamBursa.sql ---
+DELIMITER $$
+
+
+CREATE TRIGGER trg_before_insert_check_market_hours_transactions
+BEFORE INSERT ON transactions
+FOR EACH ROW
+BEGIN
+    DECLARE execution_day_of_week INT; -- Minggu=1, Senin=2, ..., Sabtu=7
+    DECLARE execution_time_val TIME;
+    DECLARE is_market_open BOOLEAN DEFAULT FALSE;
+    DECLARE error_message VARCHAR(255);
+
+
+    -- Ambil hari dan waktu dari kolom waktu_eksekusi pada data BARU yang akan dimasukkan
+    -- DAYOFWEEK(date): 1 = Minggu, 2 = Senin, ..., 7 = Sabtu
+    SET execution_day_of_week = DAYOFWEEK(NEW.waktu_eksekusi);
+    SET execution_time_val = TIME(NEW.waktu_eksekusi);
+
+
+    -- Cek untuk hari Senin - Kamis (DAYOFWEEK: 2 sampai 5)
+    IF execution_day_of_week >= 2 AND execution_day_of_week <= 5 THEN
+        IF (execution_time_val >= '09:00:00' AND execution_time_val < '12:00:00') OR -- Sesi 1
+           (execution_time_val >= '13:30:00' AND execution_time_val <= '16:00:00') THEN -- Sesi 2
+            SET is_market_open = TRUE;
+        END IF;
+    -- Cek untuk hari Jumat (DAYOFWEEK: 6)
+    ELSEIF execution_day_of_week = 6 THEN
+        IF (execution_time_val >= '09:00:00' AND execution_time_val < '11:30:00') OR -- Sesi 1 Jumat
+           (execution_time_val >= '14:00:00' AND execution_time_val <= '16:00:00') THEN -- Sesi 2 Jumat
+            SET is_market_open = TRUE;
+        END IF;
+    END IF;
+
+
+    IF NOT is_market_open THEN
+        SET error_message = CONCAT(
+            'Transaksi untuk Order ID ', 
+            NEW.order_id, 
+            ' ditolak. Pasar saham tidak beroperasi pada ', 
+            DATE_FORMAT(NEW.waktu_eksekusi, '%W, %d-%b-%Y'), -- %W: Nama hari lengkap, %d: tgl, %b: nama bulan singk.
+            ' pukul ', 
+            DATE_FORMAT(NEW.waktu_eksekusi, '%H:%i:%s'), 
+            ' (Waktu Eksekusi).'
+        );
+        SIGNAL SQLSTATE '45000' SET MESSAGE_TEXT = error_message;
+    END IF;
+
+
+END$$
+
+
+DELIMITER ;
+-- --- End of JamBursa.sql ---
+
+-- --- Start of KYCStatus.sql ---
+-- Saham Biasa
+DELIMITER $$
+
+
+CREATE TRIGGER trg_check_kyc_before_order
+BEFORE INSERT ON orders
+FOR EACH ROW
+BEGIN
+    DECLARE v_kyc_status ENUM('verified', 'unverified');
+
+
+    -- Ambil status KYC pengguna dari tabel users berdasarkan NIK pada order baru
+    SELECT kyc_status INTO v_kyc_status
+    FROM users
+    WHERE nik = NEW.nik;
+
+
+    -- Jika status KYC bukan 'verified', tolak transaksi
+    IF v_kyc_status != 'verified' THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Transaksi gagal: Status KYC pengguna belum terverifikasi. Silakan verifikasi KYC Anda terlebih dahulu.';
+    END IF;
+END$$
+
+
+DELIMITER ;
+
+
+-- Saham IPO
+DELIMITER $$
+
+
+CREATE TRIGGER trg_check_kyc_before_order_ipo
+BEFORE INSERT ON order_ipo
+FOR EACH ROW
+BEGIN
+    DECLARE v_kyc_status ENUM('verified', 'unverified');
+
+
+    -- Ambil status KYC pengguna dari tabel users berdasarkan NIK pada order IPO baru
+    SELECT kyc_status INTO v_kyc_status
+    FROM users
+    WHERE nik = NEW.nik;
+
+
+    -- Jika status KYC bukan 'verified', tolak pesanan IPO
+    IF v_kyc_status != 'verified' THEN
+        SIGNAL SQLSTATE '45000'
+        SET MESSAGE_TEXT = 'Pemesanan IPO gagal: Status KYC pengguna belum terverifikasi. Silakan verifikasi KYC Anda terlebih dahulu.';
+    END IF;
+END$$
+
+
+DELIMITER ;
+
+-- --- End of KYCStatus.sql ---
+
+-- --- Start of OrderIPO.sql ---
+-- CREATE TABLE order_ipo (
+--     nik VARCHAR(100),
+--     ticker VARCHAR(100),
+--     jumlah_lembar INT,
+--     waktu_pesanan DATETIME DEFAULT CURRENT_TIMESTAMP,
+--     status_pesanan ENUM('pending', 'approved', 'rejected', 'allocated', 'failed') DEFAULT 'pending',
+--     total_nilai_pesanan DECIMAL(15,2) DEFAULT 0.00,
+--     PRIMARY KEY (nik, ticker),
+--     FOREIGN KEY (nik) REFERENCES users(nik) ON DELETE CASCADE ON UPDATE CASCADE,
+--     FOREIGN KEY (ticker) REFERENCES stock_ipo(ticker) ON DELETE RESTRICT ON UPDATE CASCADE  
+-- );
+
+-- --- End of OrderIPO.sql ---
+
+-- --- Start of UnrealizedProfitLoss.sql ---
+ALTER TABLE portfolios
+ADD COLUMN profit_loss DOUBLE;
+
+
+DELIMITER //
+
+
+CREATE PROCEDURE UpdateUnrealizedProfitLoss(IN user_nik VARCHAR(100))
+BEGIN
+    DECLARE done INT DEFAULT FALSE;
+    DECLARE stock_ticker VARCHAR(100);
+    DECLARE shares_owned INT;
+    DECLARE avg_cost DOUBLE;
+    DECLARE current_price DOUBLE;
+    DECLARE calculated_profit_loss DOUBLE;
+
+
+    -- Declare a cursor to iterate through the user's portfolio
+    DECLARE cur CURSOR FOR
+        SELECT ticker, jumlah_lembar, average_cost
+        FROM portfolios
+        WHERE nik = user_nik;
+
+
+    -- Declare continue handler for 'not found' (for the cursor)
+    DECLARE CONTINUE HANDLER FOR NOT FOUND SET done = TRUE;
+
+
+    OPEN cur;
+
+
+    read_loop: LOOP
+        FETCH cur INTO stock_ticker, shares_owned, avg_cost;
+        IF done THEN
+            LEAVE read_loop;
+        END IF;
+
+
+        -- Get the latest price for the stock from live_stock_price_change table
+        SELECT price INTO current_price
+        FROM live_stock_price_change
+        WHERE ticker = stock_ticker
+        ORDER BY timestamp DESC
+        LIMIT 1;
+
+
+        -- Calculate profit/loss
+        SET calculated_profit_loss = (current_price - avg_cost) * shares_owned;
+
+
+        -- Update the profit_loss column in the portfolios table
+        UPDATE portfolios
+        SET profit_loss = calculated_profit_loss
+        WHERE nik = user_nik AND ticker = stock_ticker;
+
+
+    END LOOP;
+
+
+    CLOSE cur;
+
+
+END //
+
+
+DELIMITER ;
+-- --- End of UnrealizedProfitLoss.sql ---

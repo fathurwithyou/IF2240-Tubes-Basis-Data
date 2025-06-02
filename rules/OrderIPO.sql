@@ -1,0 +1,11 @@
+-- CREATE TABLE order_ipo (
+--     nik VARCHAR(100),
+--     ticker VARCHAR(100),
+--     jumlah_lembar INT,
+--     waktu_pesanan DATETIME DEFAULT CURRENT_TIMESTAMP,
+--     status_pesanan ENUM('pending', 'approved', 'rejected', 'allocated', 'failed') DEFAULT 'pending',
+--     total_nilai_pesanan DECIMAL(15,2) DEFAULT 0.00,
+--     PRIMARY KEY (nik, ticker),
+--     FOREIGN KEY (nik) REFERENCES users(nik) ON DELETE CASCADE ON UPDATE CASCADE,
+--     FOREIGN KEY (ticker) REFERENCES stock_ipo(ticker) ON DELETE RESTRICT ON UPDATE CASCADE  
+-- );
