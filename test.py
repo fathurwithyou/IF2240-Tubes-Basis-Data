@@ -17,4 +17,4 @@ def run_sql_file(username, password, sql_file_path):
     command = f'mysql -u {username} -p{password} -e "{follow_up_commands}"'
     run_cmd(command)
 
-run_sql_file("root", " ", "data/seeder/seeder.sql")
+run_sql_file("root", " ", "data/seeder/seeder_ruled.sql")
